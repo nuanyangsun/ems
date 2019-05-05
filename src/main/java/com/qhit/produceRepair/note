@@ -1,0 +1,3 @@
+SELECT pr.*,bd.devname  FROM produce_repair pr
+JOIN base_device bd
+ON  pr.devid=bd.devid

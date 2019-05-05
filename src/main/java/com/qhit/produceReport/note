@@ -1,0 +1,4 @@
+SELECT *,bc.compname,bf.flowname
+FROM produce_report pr
+LEFT JOIN base_company bc ON pr.compid=bc.compid
+LEFT JOIN base_flow bf  ON pr.flowid=bf.flowid

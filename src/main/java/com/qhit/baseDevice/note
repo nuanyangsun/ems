@@ -1,0 +1,5 @@
+三表联查
+    SELECT * FROM base_device bd
+    JOIN base_company bc ON  bd.compid=bc.compid
+    JOIN base_devtype bv ON  bd.typeid=bv.typeid
+

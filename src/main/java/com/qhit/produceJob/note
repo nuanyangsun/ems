@@ -1,0 +1,2 @@
+SELECT bd.devname,pj.* FROM produce_job pj
+JOIN base_device bd ON pj.devid=bd.devid
